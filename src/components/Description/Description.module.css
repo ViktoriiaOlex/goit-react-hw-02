@@ -1,0 +1,17 @@
+.header {
+    color: blue;
+}
+.header, .description {
+    animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+    
+@keyframes slide-fwd-top {
+    0% {
+      transform: translateZ(0) translateY(0);
+    }
+    100% {
+      transform: translateZ(160px) translateY(-100px);
+    }
+  }
+  
+
